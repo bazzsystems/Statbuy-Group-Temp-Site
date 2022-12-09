@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Statbuy Group</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <section>
+        <header>
+            <a href="https://statbuy-group.com/" class='logo'>Statbuy<br>Group</a>
+            <div class="toggle" onclick="menuToggle();"></div>
+        </header>
+        <div class="glass"></div>
+        <div class="content">
+            <h2>A Better Future<br><span>we are rising together as clear as the sky.</span></h2>
+        </div>
+        <video src="video2.mp4d" autoplay muted loop></video>
+        <ul class="sci">
+            <li style="--i:1;"><a href="https://www.instagram.com/statbuy.co/">Instagram</a></li>
+            <li style="--i:2;"><a href="https://www.linkedin.com/company/statbuy-co/about/">Linkedin</a></li>
+            <li style="--i:3;"><a href="https://statbuy.co/">Shop</a></li>
+        </ul>
+        <ul class="navigation">
+            <li style="--i:1;"><a href="index.html">Home</a></li>
+            <li style="--i:2;"><a href="aboutus.html">About Us</a></li>
+            <li style="--i:3;"><a href="404.html">VPS Services</a></li>
+            <li style="--i:4;"><a href="404.html">Build a Site</a></li>
+            <li style="--i:5;"><a href="404.html">Web Hosting</a></li>
+            <li style="--i:5;"><a href="mailto:support@statbuy.co">Contact</a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.toggle');
+            const section = document.querySelector('section');
+            toggleMenu.classList.toggle('active');
+            section.classList.toggle('active');       
+        }
+    </script>
+</body>
+</html>
